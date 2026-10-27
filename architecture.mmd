@@ -1,0 +1,20 @@
+flowchart LR
+    U[User question] --> I[Input guardrails]
+    I --> PII[PII detector and redactor]
+    I --> INJ[Prompt-injection detector]
+    I --> TOPIC[Sensitive-topic classifier]
+    PII --> D{Decision}
+    INJ --> D
+    TOPIC --> D
+    D -->|refuse/review| F[Safe fallback]
+    D -->|allow| G[Groq API]
+    R[Trusted reference] --> G
+    G --> O[Output guardrails]
+    O --> S[Schema validation]
+    O --> GR[Groundedness check]
+    O --> SI[Sensitive-information detector/redactor]
+    S --> V{Valid?}
+    GR --> V
+    SI --> V
+    V -->|no| F
+    V -->|yes| A[Structured answer]

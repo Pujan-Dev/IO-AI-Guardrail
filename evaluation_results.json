@@ -1,0 +1,150 @@
+{
+  "total": 24,
+  "passed": 24,
+  "cases": [
+    {
+      "id": "normal_1",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "normal_2",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "normal_3",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "pii_email",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "pii_phone",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "pii_ssn",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "injection_1",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "injection_2",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "injection_3",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "sensitive_medical",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "sensitive_financial",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "sensitive_self_harm",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "output_valid",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "output_missing",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "output_wrong_types",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "output_bad_enum",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "output_pii",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "output_grounded",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "output_unsupported",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "output_empty",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    },
+    {
+      "id": "pii_false_positive",
+      "expected": false,
+      "actual": false,
+      "pass": true
+    },
+    {
+      "id": "injection_false_positive",
+      "expected": false,
+      "actual": false,
+      "pass": true
+    },
+    {
+      "id": "topic_false_positive",
+      "expected": false,
+      "actual": false,
+      "pass": true
+    },
+    {
+      "id": "grounding_short",
+      "expected": true,
+      "actual": true,
+      "pass": true
+    }
+  ]
+}
